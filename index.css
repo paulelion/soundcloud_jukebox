@@ -1,0 +1,89 @@
+html, body {
+   margin:0;
+   padding:0;
+}
+
+#title {
+	margin: 1em 0 0.5em 0;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #79bbff;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 75px;
+	line-height: 54px;
+	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+	text-align: center;
+}
+
+#space {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#buttons {
+	width: auto;
+	text-align: center;
+}
+
+.button {
+	font-size:16px;
+	font-family:Impact;
+	font-weight:normal;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #469df5;
+	padding:9px 18px;
+	text-decoration:none;
+	background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+	background:-ms-linear-gradient( top, #79bbff 5%, #4197ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #79bbff), color-stop(100%, #4197ee) );
+	background-color:#79bbff;
+	color:#ffffff;
+	display:inline-block;
+	text-shadow:1px 1px 0px #287ace;
+ 	-webkit-box-shadow:inset 1px 1px 0px 0px #cae3fc;
+ 	-moz-box-shadow:inset 1px 1px 0px 0px #cae3fc;
+ 	box-shadow:inset 1px 1px 0px 0px #cae3fc;
+ 	margin-right: 16px;
+}
+
+.button:hover {
+	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	background:-ms-linear-gradient( top, #4197ee 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #4197ee), color-stop(100%, #79bbff) );
+	background-color:#4197ee;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+#song-title {
+	margin: 1.75em 0 0.5em 0;
+	color: #79bbff;
+	font-size: 26px;
+	line-height: 40px;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+}
+
+#footer {
+    position:fixed;
+    right:0;
+    bottom:0;
+    margin:0;
+    width:50%;
+    height:50%;
+    background:url(polar_bear.gif) no-repeat bottom right;
+    background-size:100%;
+}
+
+
+
